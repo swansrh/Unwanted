@@ -1,0 +1,27 @@
+.ParrFirst {
+    /* The image used */
+    background: url("./Images/rx7Home.jpg") rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+  
+    /* Set a specific height */
+    min-height: 800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+
+@font-face {
+  font-family: nightRide;
+  src: url(./Fonts/Night_Ride.ttf);
+}
+
+h1{
+  font-family: nightRide;
+  color: white;
+  font-size: 150px;
+  padding-top: 275px;
+}
