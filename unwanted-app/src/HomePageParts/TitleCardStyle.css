@@ -1,6 +1,6 @@
 .ParrFirst {
     /* The image used */
-    background: url("./Images/rx7Home.jpg") rgba(0, 0, 0, .4);
+    background: url("../Images/rx7Home.jpg") rgba(0, 0, 0, .4);
     background-blend-mode: multiply;
   
     /* Set a specific height */
@@ -16,10 +16,11 @@
 
 @font-face {
   font-family: nightRide;
-  src: url(./Fonts/Night_Ride.ttf);
+  src: url(../Fonts/Night_Ride.ttf);
 }
 
-h1{
+.TitleTextChanger {
+  text-align: center;
   font-family: nightRide;
   color: white;
   font-size: 150px;

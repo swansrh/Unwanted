@@ -1,4 +1,5 @@
 import React from 'react'
+import "./NavBabyStyle.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button, FormControl, Form, NavDropdown, Nav, Container, Navbar } from 'react-bootstrap'
 
@@ -6,7 +7,7 @@ function NavigationBaby() {
   return (
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Unwanted</Navbar.Brand>
+        <Navbar.Brand href="#home" class="ChangeMePls">Unwanted</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

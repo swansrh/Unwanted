@@ -1,0 +1,14 @@
+@font-face {
+    font-family: nightRide;
+    src: url(../Fonts/Night_Ride.ttf);
+  }
+
+.ChangeMePls {
+    font-family: nightRide;
+    text-decoration: none;
+    color: white;
+}
+
+.ChangeMePls:hover {
+    color: white;
+}
