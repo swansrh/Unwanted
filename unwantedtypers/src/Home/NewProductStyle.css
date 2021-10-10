@@ -1,0 +1,8 @@
+@font-face {
+    font-family: nightRide;
+    src: url(../Fonts/Night_Ride.ttf);
+  }
+
+.FontChangePLS {
+    font-family: nightRide;
+}
